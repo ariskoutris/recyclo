@@ -65,15 +65,12 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         }
 
         val spinner: Spinner = findViewById(R.id.spinner)
-// Create an ArrayAdapter using the string array and a default spinner layout
         ArrayAdapter.createFromResource(
                 this,
                 R.array.categories_array,
                 android.R.layout.simple_spinner_item
         ).also { adapter ->
-            // Specify the layout to use when the list of choices appears
             adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item)
-            // Apply the adapter to the spinner
             spinner.adapter = adapter
         }
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
@@ -86,13 +83,9 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 selection.setTextColor(ContextCompat.getColor(this@MapsActivity, R.color.white))
                 selection.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16F)
                 selection.setTypeface(null, Typeface.BOLD)
-                    //filterMarkers()
-                    val selected = parent.getItemAtPosition(position)
-                    Toast.makeText(this@MapsActivity, "Selected $selected", Toast.LENGTH_LONG).show()
+                val selected = parent.getItemAtPosition(position)
             }
-
         }
-
     }
 
     private fun removeMarker(marker: Marker) {
