@@ -1,0 +1,6 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- ...existing code (if any)... -->
+    <corners android:radius="8dp" />
+    <!-- ...existing code (if any)... -->
+</shape>
