@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Recyclodroid</string>
+    <string name="leaderboard_caps">LEADERBOARD</string>
+    <string name="contact_caps">CONTACT US</string>
+    <string name="points">Points</string>
+    <string name="rewards_caps">REWARDS</string>
+    <string name="contact">Contact Us</string>
+    <string name="leaderboard">Leaderboard</string>
+    <string name="rewards">Rewards</string>
+    <string name="swipe_left_caps">SWIPE LEFT</string>
+    <string name="swipe_right_caps">SWIPE RIGHT</string>
+    <string name="title_activity_maps">Maps</string>
+    <string-array name="categories_array">
+        <item>All Materials</item>
+        <item>Plastic</item>
+        <item>Glass</item>
+        <item>Aluminium</item>
+        <item>Batteries</item>
+        <item>Paper</item>
+        <item>Wood</item>
+    </string-array>
+
+</resources>

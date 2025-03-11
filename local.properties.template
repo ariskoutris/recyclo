@@ -1,0 +1,4 @@
+## This file serves as a template for local.properties
+## Copy this file to local.properties and replace the keys with your own
+sdk.dir=/path/to/your/android/sdk
+MAPS_API_KEY=YOUR_MAPS_API_KEY_HERE
