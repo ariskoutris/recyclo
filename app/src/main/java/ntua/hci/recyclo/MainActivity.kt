@@ -1,4 +1,4 @@
-package ntua.hci.recyclodroid
+package ntua.hci.recyclo
 import android.content.Intent
 import android.os.Bundle
 import androidx.constraintlayout.widget.ConstraintLayout

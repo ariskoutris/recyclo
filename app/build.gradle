@@ -17,7 +17,7 @@ android {
     compileSdkVersion 35
 
     defaultConfig {
-        applicationId "ntua.hci.recyclodroid"
+        applicationId "ntua.hci.recyclo"
         minSdkVersion 22
         targetSdkVersion 35
         versionCode 1
@@ -44,7 +44,7 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
-    namespace 'ntua.hci.recyclodroid'
+    namespace 'ntua.hci.recyclo'
     buildFeatures {
         buildConfig true
     }

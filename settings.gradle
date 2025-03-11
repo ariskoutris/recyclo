@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Recyclodroid"
+rootProject.name = "Recyclo"

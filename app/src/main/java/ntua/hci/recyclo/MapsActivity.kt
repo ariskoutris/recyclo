@@ -1,4 +1,4 @@
-package ntua.hci.recyclodroid
+package ntua.hci.recyclo
 
 import android.content.DialogInterface
 import android.content.Intent
@@ -83,7 +83,6 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
                 selection.setTextColor(ContextCompat.getColor(this@MapsActivity, R.color.white))
                 selection.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16F)
                 selection.setTypeface(null, Typeface.BOLD)
-                val selected = parent.getItemAtPosition(position)
             }
         }
     }

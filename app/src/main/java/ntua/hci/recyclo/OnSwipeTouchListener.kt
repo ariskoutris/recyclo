@@ -1,4 +1,4 @@
-package ntua.hci.recyclodroid
+package ntua.hci.recyclo
 import android.content.Context
 import android.view.GestureDetector
 import android.view.GestureDetector.SimpleOnGestureListener

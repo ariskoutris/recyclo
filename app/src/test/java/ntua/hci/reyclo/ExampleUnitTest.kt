@@ -1,4 +1,4 @@
-package ntua.hci.recyclodroid
+package ntua.hci.recyclo
 
 import org.junit.Test
 
