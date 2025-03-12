@@ -2,6 +2,14 @@
 
 Recyclo is an Android application designed to help users identify recyclable items and locate nearby recycling bins. 🌍
 
+<table>
+  <tr>
+    <td align="center"><img src="https://i.imgur.com/2FO8RXj.png" alt="Main View"></td>
+    <td align="center"><img src="https://i.imgur.com/puhk5F8.png" alt="Image Recognition View"></td>
+    <td align="center"><img src="https://imgur.com/hDKpHzZ.png" alt="Map View"></td>
+  </tr>
+</table>
+
 ## 🚀 Features
 - 📸 **Recyclable Item Identification**: Use your device's camera to take a photo of an item and Recyclo will determine if it is recyclable.
 - 🗺️ **Locate Recycling Bins**: Find the nearest recycling bins for specific types of materials.
